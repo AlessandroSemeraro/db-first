@@ -11,6 +11,7 @@ tipo_carburante - stringa - VARCHAR(30) - NOT NULL
 Marce - intero - TINYINT - NOT NULL 
 Tipo_cambio - Booleano - BOOLEAN (TINYINT) - NOT NULL - DEFAULT (TRUE)
 inizio_anno_di_produzione - YEAR - NULL
+data_immatricolazione - DATE - NOT NULL 
 posti - intero - TINYINT - NOT NULL - DEFAULT (5)
 numeri_porte - intero - TINYINT - NOT NULL - DEFAULT(5)
 lunghezza - float - FLOAT(3,2) -  NULL
