@@ -1,6 +1,8 @@
-Nome tabella: auto usate in vendita
+Nome tabella: used_cars
 
-marca - stringa - VARCHAR(50) - PRIMARY_KEY - NOT NULL
+
+id - intero - not NULL - UNIQUE - AUTO_INCREMENT - PRIMARY_KEY
+marca - stringa - VARCHAR(50)  - NOT NULL
 modello - stringa - VARCHAR(50) - NOT NULL
 generazione - stringa - VARCHAR(50) - NULL
 carrozzeria - stringa - VARCHAR(50) - NULL
@@ -10,8 +12,8 @@ motore - stringa - VARCHAR(100) - NOT NULL
 tipo_carburante - stringa - VARCHAR(30) - NOT NULL 
 Marce - intero - TINYINT - NOT NULL 
 Tipo_cambio - Booleano - BOOLEAN (TINYINT) - NOT NULL - DEFAULT (TRUE)
-inizio_anno_di_produzione - YEAR - NULL
-data_immatricolazione - DATE - NOT NULL 
+inizio_anno_di_produzione - YEAR - NOT NULL
+data_immatricolazione - DATE - NULL 
 posti - intero - TINYINT - NOT NULL - DEFAULT (5)
 numeri_porte - intero - TINYINT - NOT NULL - DEFAULT(5)
 lunghezza - float - FLOAT(3,2) -  NULL
@@ -20,5 +22,5 @@ altezza - float - FLOAT(3,2) -  NULL
 peso - float - FLOAT(5,2) -  NULL
 incidentata - Booloeano - BOOLEAN (TINYINT) - NOT NULL - DEFAULT (FALSE)
 disponibile - Booleano - BOOLEAN (TINYINT) - NOT NULL - DEFAULT (TRUE)
-lettura_contachilometri - float - FLOAT (8,2) - NOT NULL
+lettura_contachilometri - intero - MEDIUMINT - NOT NULL
 quotazione - intero - float - FLOAT (8,2) - NOT NULL
